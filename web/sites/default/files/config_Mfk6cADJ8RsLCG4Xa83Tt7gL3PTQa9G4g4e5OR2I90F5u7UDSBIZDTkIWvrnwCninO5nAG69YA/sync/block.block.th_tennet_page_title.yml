@@ -1,0 +1,20 @@
+uuid: 6096060b-1981-495a-a7de-fb56a368b0e6
+langcode: es
+status: false
+dependencies:
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: qYppfxaWSy6BwGNKdMch1PeUA24PlRTt39jQft6A6Kg
+id: th_tennet_page_title
+theme: th_tennet
+region: content
+weight: -3
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

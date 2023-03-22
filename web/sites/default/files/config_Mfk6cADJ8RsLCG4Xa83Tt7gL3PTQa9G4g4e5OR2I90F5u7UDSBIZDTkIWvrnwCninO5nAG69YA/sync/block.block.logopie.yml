@@ -1,0 +1,25 @@
+uuid: aceeb227-b217-42e1-a8fa-956fcb4892a1
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:b1a47b41-6b6a-4b41-a896-fced78c427ff'
+  module:
+    - block_content
+  theme:
+    - th_tennet
+id: logopie
+theme: th_tennet
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:b1a47b41-6b6a-4b41-a896-fced78c427ff'
+settings:
+  id: 'block_content:b1a47b41-6b6a-4b41-a896-fced78c427ff'
+  label: 'Logo pie'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

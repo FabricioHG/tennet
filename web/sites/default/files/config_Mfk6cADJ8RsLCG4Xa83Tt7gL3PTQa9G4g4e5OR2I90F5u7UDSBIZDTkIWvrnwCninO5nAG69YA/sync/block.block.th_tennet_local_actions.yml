@@ -1,0 +1,20 @@
+uuid: 8f666f8b-6e82-4d91-8385-06c1593f40c7
+langcode: es
+status: true
+dependencies:
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: MBqG1B5mr5-fPSCDyTR6z2zVTRxZ10XeS_pAw6C7za4
+id: th_tennet_local_actions
+theme: th_tennet
+region: content
+weight: -5
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

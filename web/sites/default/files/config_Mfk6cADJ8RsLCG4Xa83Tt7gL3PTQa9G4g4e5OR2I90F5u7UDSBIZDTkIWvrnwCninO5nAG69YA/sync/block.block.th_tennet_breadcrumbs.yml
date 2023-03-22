@@ -1,0 +1,22 @@
+uuid: 2047ff80-b798-4c9e-a268-3779f0b40fd3
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: VShtwe72J2j41BJzApoNbs8l554EpngM5RTObxM7yiw
+id: th_tennet_breadcrumbs
+theme: th_tennet
+region: breadcrumb
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

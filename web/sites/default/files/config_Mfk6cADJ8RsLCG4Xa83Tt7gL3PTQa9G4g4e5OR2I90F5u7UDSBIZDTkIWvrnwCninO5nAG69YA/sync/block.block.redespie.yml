@@ -1,0 +1,25 @@
+uuid: b43dd3a8-39ff-4c81-a73c-495bd436b4b8
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:d84aa135-d5d6-4697-9dd4-72599b65b338'
+  module:
+    - block_content
+  theme:
+    - th_tennet
+id: redespie
+theme: th_tennet
+region: footer
+weight: -4
+provider: null
+plugin: 'block_content:d84aa135-d5d6-4697-9dd4-72599b65b338'
+settings:
+  id: 'block_content:d84aa135-d5d6-4697-9dd4-72599b65b338'
+  label: 'Redes pie'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

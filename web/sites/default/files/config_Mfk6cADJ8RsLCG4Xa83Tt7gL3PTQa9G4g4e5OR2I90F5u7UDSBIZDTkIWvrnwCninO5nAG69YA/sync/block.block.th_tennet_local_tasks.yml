@@ -1,0 +1,22 @@
+uuid: 64b96150-7309-443b-a170-3fc5affcc8e6
+langcode: es
+status: true
+dependencies:
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: yX9o6NcntZnXRDfbJoHY1pJwuXlumW44m5AMs347NN4
+id: th_tennet_local_tasks
+theme: th_tennet
+region: content
+weight: -7
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

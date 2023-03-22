@@ -1,0 +1,22 @@
+uuid: 0085f5c4-1637-4a91-9e4b-83a2a033464a
+langcode: es
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: S0Y16qIQfKiOEzWlddOGk3u_BKwAruAheA8VVFfGbLc
+id: th_tennet_help
+theme: th_tennet
+region: content
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

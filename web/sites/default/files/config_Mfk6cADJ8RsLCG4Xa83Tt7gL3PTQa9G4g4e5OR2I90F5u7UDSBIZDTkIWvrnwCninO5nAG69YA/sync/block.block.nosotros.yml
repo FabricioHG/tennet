@@ -1,0 +1,30 @@
+uuid: 98c0679a-4bea-444f-bd7f-fc26b6d3e05c
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:4a5616a3-4fb9-4bb5-a003-8a33c3d7e400'
+  module:
+    - block_content
+    - system
+  theme:
+    - th_tennet
+id: nosotros
+theme: th_tennet
+region: piso_2
+weight: -7
+provider: null
+plugin: 'block_content:4a5616a3-4fb9-4bb5-a003-8a33c3d7e400'
+settings:
+  id: 'block_content:4a5616a3-4fb9-4bb5-a003-8a33c3d7e400'
+  label: Nosotros
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

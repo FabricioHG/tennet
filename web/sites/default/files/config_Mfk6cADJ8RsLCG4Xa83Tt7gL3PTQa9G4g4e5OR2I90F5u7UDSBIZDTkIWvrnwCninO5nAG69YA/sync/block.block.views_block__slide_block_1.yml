@@ -1,0 +1,29 @@
+uuid: 62dcb462-34bf-4d5b-8b33-caba1db0438a
+langcode: es
+status: true
+dependencies:
+  config:
+    - views.view.slide
+  module:
+    - system
+    - views
+  theme:
+    - th_tennet
+id: views_block__slide_block_1
+theme: th_tennet
+region: slide
+weight: -5
+provider: null
+plugin: 'views_block:slide-block_1'
+settings:
+  id: 'views_block:slide-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

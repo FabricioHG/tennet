@@ -1,0 +1,25 @@
+uuid: 12b1c07b-5d47-4ab4-a9a6-85a16dcaad36
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: nuW1Z5MdvzbCCEZ9RQojaEWB6Zni32zTq-v5OWbS2sc
+id: th_tennet_branding
+theme: th_tennet
+region: nav_branding
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: false
+  use_site_slogan: false
+visibility: {  }

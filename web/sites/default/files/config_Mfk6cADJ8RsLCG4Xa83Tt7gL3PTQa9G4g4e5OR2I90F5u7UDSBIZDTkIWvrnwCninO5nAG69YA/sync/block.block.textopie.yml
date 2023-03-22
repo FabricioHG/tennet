@@ -1,0 +1,25 @@
+uuid: b0adc536-d087-4ba7-9272-0272f1966fc9
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:0107b03e-caf0-493c-9d8a-93554748d62c'
+  module:
+    - block_content
+  theme:
+    - th_tennet
+id: textopie
+theme: th_tennet
+region: footer
+weight: -6
+provider: null
+plugin: 'block_content:0107b03e-caf0-493c-9d8a-93554748d62c'
+settings:
+  id: 'block_content:0107b03e-caf0-493c-9d8a-93554748d62c'
+  label: 'Texto pie'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

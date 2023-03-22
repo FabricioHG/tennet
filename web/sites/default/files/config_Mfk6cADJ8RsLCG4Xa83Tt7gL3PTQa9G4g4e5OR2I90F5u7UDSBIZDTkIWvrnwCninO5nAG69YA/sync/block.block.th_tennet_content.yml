@@ -1,0 +1,22 @@
+uuid: 4d6b0ef7-f97b-42cf-9dd6-17e9fd50c3f1
+langcode: es
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - th_tennet
+_core:
+  default_config_hash: 1o0W13wt232YmsDYiRA5xtlFq0L2WNS7FmIVbBeuhIY
+id: th_tennet_content
+theme: th_tennet
+region: content
+weight: -4
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

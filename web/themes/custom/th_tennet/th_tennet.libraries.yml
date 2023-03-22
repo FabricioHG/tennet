@@ -2,6 +2,11 @@
 global:
   js:
     js/th-tennet.js: {}
+  dependencies:
+    - core/drupal
+    - core/jquery
+    - core/jquery.once
+    - core/drupalSettings
   css:
     base:
       css/base/elements.css: {}
