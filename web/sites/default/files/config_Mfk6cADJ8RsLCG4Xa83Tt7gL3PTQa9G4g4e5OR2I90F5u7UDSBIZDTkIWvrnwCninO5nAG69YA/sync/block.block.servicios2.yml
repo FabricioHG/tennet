@@ -1,0 +1,30 @@
+uuid: 36a80f8f-182f-4d22-b1a6-e3c473c75d10
+langcode: es
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:ccedd6c3-578b-4427-ab9d-ba39d7c2bf0f'
+  module:
+    - block_content
+    - system
+  theme:
+    - th_tennet
+id: servicios2
+theme: th_tennet
+region: piso_1
+weight: 0
+provider: null
+plugin: 'block_content:ccedd6c3-578b-4427-ab9d-ba39d7c2bf0f'
+settings:
+  id: 'block_content:ccedd6c3-578b-4427-ab9d-ba39d7c2bf0f'
+  label: Servicios2
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

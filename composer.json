@@ -21,7 +21,9 @@
         "drupal/bootstrap5": "^3.0",
         "drupal/core-composer-scaffold": "^9.5",
         "drupal/core-recommended": "^9.5",
+        "drupal/devel": "^5.0",
         "drupal/views_bootstrap": "^5.5@alpha",
+        "drupal/webform": "^6.1",
         "drush/drush": "^11.5"
     },
     "conflict": {
@@ -94,5 +96,8 @@
                 "      composer remove drupal/core-project-message"
             ]
         }
+    },
+    "require-dev": {
+        "kint-php/kint": "^5.0"
     }
 }

@@ -1,0 +1,30 @@
+uuid: 71d11d2d-31f7-4e9f-bc81-ed1421923119
+langcode: es
+status: true
+dependencies:
+  config:
+    - webform.webform.contacto
+  module:
+    - system
+    - webform
+  theme:
+    - th_tennet
+id: webform
+theme: th_tennet
+region: piso_2
+weight: 0
+provider: null
+plugin: webform_block
+settings:
+  id: webform_block
+  label: Contacto
+  label_display: visible
+  provider: webform
+  webform_id: contacto
+  default_data: ''
+  redirect: false
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'

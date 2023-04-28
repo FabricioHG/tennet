@@ -1,16 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Sen&display=swap');
+/***********REGLAS DE IMPORTAR --- font-family: 'Sen', sans-serif*****************/
+
+
+
 body{
   background-color: #000;
+  font-family: 'Sen', sans-serif;
 }
 /*.carousel-item.active, .media-library-view--widget .view-header a.carousel-item.is-active, .carousel-item-next, .carousel-item-prev{
   max-height: 800px !important;
 }*/
+
+.navbar-brand img{
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+100&0.73+1,0+100 */
+background: -moz-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.73) 0%, rgba(0,0,0,0.73) 1%, rgba(0,0,0,0) 68%); /* FF3.6-15 */
+background: -webkit-radial-gradient(center, ellipse cover,  rgba(0,0,0,0.73) 0%,rgba(0,0,0,0.73) 1%,rgba(0,0,0,0) 68%); /* Chrome10-25,Safari5.1-6 */
+background: radial-gradient(ellipse at center,  rgba(0,0,0,0.73) 0%,rgba(0,0,0,0.73) 1%,rgba(0,0,0,0) 68%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ba000000', endColorstr='#00000000',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+      padding: 30px;
+    height: 122px;
+	
+}
 .container-fluid.slide_content {
   padding: 0;
 }
+.container-fluid.slide_content h2{
+font-size: 2.7rem;
+font-weight: 600;
+}
+.container-fluid.slide_content p{
+font-size: 1.2rem;
+font-weight: 100;
+letter-spacing: .1rem;
+}
 .carousel-caption.d-none.d-md-block {
   position: absolute;
-  bottom: 75%;
-  left: 5%;
+  bottom: 66%;
+  left: 9%;
   padding: 20px;
   right: unset;
   text-align: left;
@@ -23,8 +49,25 @@ body{
   background-color: #5d67d6;
   text-decoration: none;
 }
+
+
+/*******PISO 1**********/
+
+.path-frontpage .piso_1{
+	height: 10px;
+}
+
+
+.region-piso-1{
+	text-align: center;
+	width: 100%
+}
+/*****SERVICIOS*****/
+
 #block-views-block-servicios-block-1 h2{
   text-align: center;
+	padding-top: 2.3rem;
+	padding-bottom: 160px;
 }
 #block-views-block-servicios-block-1 .view-content {
   display: flex;
@@ -36,10 +79,105 @@ body{
   margin-top: 30px;
   padding: 30px;
 }
+
+
+/***********PISO2"****/
+#block-servicios2{
+top: -850px;
+display: contents;
+display: inline-grid;
+position: relative;
+	padding: 30px;
+	background: -moz-linear-gradient(top, rgba(0,0,0,0.38) 0%, rgba(0,0,0,0.38) 1%, rgba(0,0,0,1) 34%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.38) 1%,rgba(0,0,0,1) 34%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.38) 1%,rgba(0,0,0,1) 34%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61000000', endColorstr='#000000',GradientType=0 );
+}
+
+#block-servicios2 p{
+    font-size: 1.2rem;
+    text-align: left;
+
+}
+
+
+
+
+
+
+
+.sphere{
+	background: #5fdcca;
+height: 200px;
+top: -163px;
+position: relative;
+border-radius: 100px;
+width: 200px;
+text-indent: -1000px;
+overflow: hidden;
+left: 45px;
+}
+.field-content:hover .sphere{
+	
+	background: #fff;
+	transform: scale(0.8);
+	transition: 1.5s;
+	
+}
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(1),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(2),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(3){
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#430d81+1,430d81+100&1+0,0.38+100 */
+background: -moz-linear-gradient(top,  rgba(67,13,129,1) 0%, rgba(67,13,129,0.99) 1%, rgba(67,13,129,0.38) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(67,13,129,1) 0%,rgba(67,13,129,0.99) 1%,rgba(67,13,129,0.38) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(67,13,129,1) 0%,rgba(67,13,129,0.99) 1%,rgba(67,13,129,0.38) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#430d81', endColorstr='#61430d81',GradientType=0 ); /* IE6-9 */
+}
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(1),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(2),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(3){
+	width: 30%;
+}
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(4),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(5),
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(6){
+float: left;
+display: ruby;
+height: auto;
+padding: 0 63px;
+margin: 0;
+}
+
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(1) img{
+top: -368px;
+display: block;
+position: relative;
+margin-bottom: -361px;
+left: 89px;
+height: 210px;
+width: auto;
+}
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(2) img{
+top: -367px;
+display: block;
+position: relative;
+margin-bottom: -361px;
+left: 110px;
+height: 210px;
+width: auto;
+}
+#block-views-block-servicios-block-1 .view-content .views-row:nth-child(3) img{
+top: -368px;
+display: block;
+position: relative;
+margin-bottom: -361px;
+left: 68px;
+height: 210px;
+width: auto;
+}
+
 #block-views-block-servicios-block-1 .view-content .views-row .views-field.views-field-title {
-  font-size: 18px;
-  font-weight: bold;
-  padding-bottom: 15px;
+	display: none;
 }
 #block-nosotros h2{
   text-align: center;
@@ -60,6 +198,13 @@ body{
   text-decoration: navajowhite;
   color: #fff;
   background-color: #5d67d6;
+}
+
+
+
+/***FOOTER******/
+.bg-secondary{
+	background: #000 !important;
 }
 footer .region-footer {
   display: block !important;
@@ -99,9 +244,11 @@ footer .region-footer {
   color: #fff;
   background-position-x: 570px;
   padding: 50px;
+	display: inline-flex;
 }
 .container-fluid.piso_2 {
   background: url('../images/bg_3.png');
+  background-attachment: fixed;
   background-color: #000;
   color: #fff; 
   padding: 50px;
@@ -120,8 +267,125 @@ footer .region-footer {
 }
 #block-views-block-servicios-block-1 {
   position: relative;
-  top: -300px;
+  top: -850px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#000000+0,000000+34&0.38+1,1+34 */
+background: -moz-linear-gradient(top,  rgba(0,0,0,0.38) 0%, rgba(0,0,0,0.38) 1%, rgba(0,0,0,1) 34%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.38) 1%,rgba(0,0,0,1) 34%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(0,0,0,0.38) 0%,rgba(0,0,0,0.38) 1%,rgba(0,0,0,1) 34%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#61000000', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	padding-bottom: 42px;
 }
+.cont_campos_form {
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  max-width: 1200px;
+}
+.blok_cont_1 {
+  flex-basis: 600px;
+  padding-right: 20px;
+  position: relative;
+  flex-grow: 2;
+}
+.blok_cont_2 {
+  flex-grow: 2;
+  flex-basis: 500px;
+}
+.cont_campos_form #edit-actions {
+  flex-basis: 100%;
+  text-align: right;
+  padding-right: 50px;
+}
+.cont_campos_form #edit-nombre, #edit-correo-electronico{
+  padding-left: 30px
+}
+.cont_campos_form #edit-actions-submit{
+  padding: 12px 35px;
+  border-radius: 20px;
+  background-color: #5d67d6;
+    transition: transform .2s; 
+}
+.carousel-caption.d-none.d-md-block a:hover,
+.conoce_mas a:hover,
+.cont_campos_form #edit-actions-submit:hover{
+	transform: scale(1.1); 
+  background-color: #261fff;
+    transition: transform .2s; 
+}
+.blok_cont_1 img{
+  max-width: 200px;
+  position: absolute;
+}
+ .blok_cont_1 .form-item-nombre, .blok_cont_1 .form-item-correo-electronico{
+  margin-left: 175px;
+ }
+
+ .blok_cont_1 .form-item-correo-electronico label, .blok_cont_1 .form-item-nombre label{
+  padding-left: 30px;
+ }
+ #block-webform h2{
+  text-align: center;
+ }
+ #block-webform{
+  margin-top: 50px;
+ }
+
+
+/*********MENU******/
+
+.navbar-dark a{
+	color: #FFF;
+}
+.navbar{
+	padding: 0;
+}
+
+
+
+ /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .blok_cont_1 img{
+    display: none;
+  }
+  .blok_cont_1 .form-item-nombre, .blok_cont_1 .form-item-correo-electronico{
+    margin-left: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+  flex-basis: auto;
+  background: transparent;
+  display: block;
+  position: fixed;
+  right: 27px;
+		top: 50px;
+  z-index: 1;
+}
+	#block-th-tennet-branding{
+  position: fixed;
+		top: 35px;
+  z-index: 1;
+			
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...} 
+
+
+
 
 
 
